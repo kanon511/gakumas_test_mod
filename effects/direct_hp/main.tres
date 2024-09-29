@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ExamEffectResource" load_steps=4 format=3 uid="uid://08ibdwswdwk"]
+
+[ext_resource type="Script" path="res://mods/original/effects/direct_hp/script.gd" id="1_dp5xb"]
+[ext_resource type="Script" path="res://resource/exam_effect.gd" id="1_vrhs6"]
+[ext_resource type="Texture2D" uid="uid://conw4xx3j7gnk" path="res://mods/original/effects/direct_hp/img_general_icon_exam-effect_examstaminarecoverfix.png" id="2_qsckk"]
+
+[resource]
+script = ExtResource("1_vrhs6")
+name = "体力"
+description = ""
+image = ExtResource("2_qsckk")
+type = 0
+effect_script = ExtResource("1_dp5xb")

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ExamEffectResource" load_steps=3 format=3 uid="uid://2k333tej2b2f"]
+
+[ext_resource type="Script" path="res://resource/exam_effect.gd" id="1_65v4w"]
+[ext_resource type="Script" path="res://mods/original/effects/hp/script.gd" id="1_u05y6"]
+
+[resource]
+script = ExtResource("1_65v4w")
+name = "体力"
+description = ""
+type = 0
+effect_script = ExtResource("1_u05y6")
